@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Let us know how we did!</h1>
+        <p id="description">Thank you for taking the time to let us know how to improve</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <!--name-->
+            <label for="name"> Name:
+                <input type="name" id="name" name="name" placeholder="John Smith" required />
+            </label>
+            <br>
+            <!--email"-->
+            <label for="email"> Email:
+                <input type="email" id="email" name="email" required placeholder="john@gmail.com" />
+            </label>
+            <br>
+            <!--age-->
+            <label for="age"> Age(optional):
+                <input type="number" id="age" name="age" min="18" max="92" required placeholder="18" />
+            </label>
+            <br>
+            <br>
+            <!--select-->
+
+            <label for="select"> Which one option best describes you?
+                <br>
+                <br>
+                <select id="select">
+                    <option value=" ">Please select one of the options</option>
+                    <option value="student">Student</option>
+                    <option value="working">working</option>
+
+            </label>
+            </select>
+            <br>
+            <!--radio buttons-->
+            <p>Please select your favorite Web language:</p>
+            <input type="radio" id="Yes" name="recommend" value="Yes">
+            <label for="Yes">Yes</label><br>
+            <input type="radio" id="No" name="recommend" value="No">
+            <label for="No">No</label><br>
+            <input type="radio" id="Maybe" name="recommend" value="Maybe">
+            <label for="Maybe">Maybe</label>
+            <br>
+            <p>Do you have any comments or suggestions?</p>
+            <textarea id="w3review" name="w3review" rows="4"
+                cols="50">Please add any additional comments for suggestions in here.</textarea>
+
+        </form>
+    </main>
+</body>
+
+</html>
