@@ -54,3 +54,19 @@ hr {
     background-color: #ed1d61;
     border:none
 } */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#age {
+    margin-right: 100px;
+}
+
+input, select,textarea {
+    padding: 0.4rem;
+}
