@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monserrat, sans-ferif; 
     font-weight: 600;
     /* color: #444;
     background-color: #C9C5B1; */
@@ -25,8 +25,8 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    background: -webkit-linear-gradient(left, #6441A5, #2a0845);
+    color: #f0f0f0;
+    /* background: -webkit-linear-gradient(left, #6441A5, #2a0845); */
     overflow: hidden;
 }
 
